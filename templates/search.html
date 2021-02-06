@@ -1,0 +1,13 @@
+Saisissez votre recherche 
+
+<from methode='get'>
+    <input id='q' name='q' type='text' placeholder='your search...'/>
+</from>
+
+{% for item in posts %}
+    {{item.id}}
+    {{item.title}}
+    {{item.slug}}
+    {{item.description}}
+ <bar>
+{% endfor %}
